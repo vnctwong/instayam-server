@@ -21,6 +21,7 @@ following - models.ForeignKey
 ## Other stuff
   - plaintext for password for now, will be changed to some hashing algorithm to obfusticate
   - create a POST /login route
+    - you will receive form data via req.body.name / password
     - on successful login pass user a token (encrypted key that identifies user for us)
       - token should be tracked locally as well, maybe in the db or something
       - token should expire after some time?
