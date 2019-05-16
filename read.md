@@ -10,3 +10,10 @@
 - REST frmwrk will generate REST routes
 - south app for migrations?
 
+## user_model_data
+name - str
+email - str
+password - str
+followers - models.ForeignKey
+following - models.ForeignKey
+
