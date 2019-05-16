@@ -16,4 +16,3 @@ email - str
 password - str
 followers - models.ForeignKey
 following - models.ForeignKey
-
