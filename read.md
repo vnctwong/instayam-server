@@ -1,6 +1,7 @@
 # pipenv
 
 # init django server and django REST framework
+  - warnings about dir not on path on installation
 
 # implement psql through django
 
