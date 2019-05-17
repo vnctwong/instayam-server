@@ -62,9 +62,7 @@ Response body:
   "fullName": "Cosmo Kramer",
   "followers": 3,
   "following": 5,
-  "posts": [
-    ...
-  ]
+  "isPrivate": false
 }
 ```
 
