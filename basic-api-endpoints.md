@@ -6,7 +6,7 @@
 
 Request body:
 
-```json
+```javascript
 {
   "email": "jerry@example.com",
   "password": "helloworld123"
@@ -15,7 +15,7 @@ Request body:
 
 Response body:
 
-```json
+```javascript
 {
   "token": "eyJhbGciOiJI..." // user id field encoded inside
 }
@@ -27,7 +27,7 @@ Response body:
 
 Request body:
 
-```json
+```javascript
 {
   "email": "newman@example.com",
   "username": "newman123",
@@ -38,7 +38,7 @@ Request body:
 
 Response body (same as `POST /login`):
 
-```json
+```javascript
 {
   "token": "eyJhbGciOiJI..." // user id field encoded inside
 }
@@ -56,7 +56,7 @@ Authorization: Bearer eyJhbGciOiJI...
 
 Response body:
 
-```json
+```javascript
 {
   "username": "kramer",
   "fullName": "Cosmo Kramer",
